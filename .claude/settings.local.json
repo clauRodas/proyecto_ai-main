@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Recurse -Force)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(pip show *)",
+      "Bash(python -c \"import mediapipe as mp; help\\(mp.tasks.vision.PoseLandmarker\\)\")",
+      "Bash(python -c \"import mediapipe as mp; print\\(dir\\(mp.tasks.vision\\)\\)\")",
+      "Bash(python -c \"import mediapipe as mp; pl = mp.tasks.vision.PoseLandmark; print\\([\\(e.name, e.value\\) for e in pl]\\)\")",
+      "Bash(python -c \"import mediapipe as mp; help\\(mp.tasks.vision.PoseLandmarkerOptions\\)\")",
+      "Bash(python -c \"import mediapipe as mp; help\\(mp.tasks.BaseOptions\\)\")",
+      "Bash(python -c \"import mediapipe as mp; help\\(mp.tasks.vision.RunningMode\\)\")",
+      "Bash(python -c \"import mediapipe as mp; help\\(mp.tasks.vision.PoseLandmarkerResult\\)\")",
+      "Bash(python -c \"import cv2; print\\(cv2.__version__\\); cap = cv2.VideoCapture\\(0\\); print\\('CAP_PROP_FRAME_WIDTH:', cap.get\\(cv2.CAP_PROP_FRAME_WIDTH\\)\\); print\\('CAP_PROP_FRAME_HEIGHT:', cap.get\\(cv2.CAP_PROP_FRAME_HEIGHT\\)\\); cap.release\\(\\)\")",
+      "Bash(python -c \"import mediapipe as mp; help\\(mp.tasks.components.containers.NormalizedLandmark\\)\")",
+      "Bash(python -c \"import cvzone; print\\(dir\\(cvzone\\)\\)\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, r'c:\\\\dev\\\\proyecto_ai\\\\venv\\\\Lib\\\\site-packages'\\); import cvzone; print\\(dir\\(cvzone\\)\\)\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, r'c:\\\\dev\\\\proyecto_ai\\\\venv\\\\Lib\\\\site-packages'\\); import cvzone; help\\(cvzone.putTextRect\\)\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, r'c:\\\\dev\\\\proyecto_ai\\\\venv\\\\Lib\\\\site-packages'\\); import cvzone; help\\(cvzone.overlayPNG\\)\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, r'c:\\\\dev\\\\proyecto_ai\\\\venv\\\\Lib\\\\site-packages'\\); from cvzone.FPS import FPS; help\\(FPS\\)\")",
+      "Bash(python -c \"import cv2; print\\([a for a in dir\\(cv2\\) if 'FONT' in a]\\)\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, r'c:\\\\dev\\\\proyecto_ai\\\\venv\\\\Lib\\\\site-packages'\\); import mediapipe as mp; help\\(mp.tasks.vision.PoseLandmarker.create_from_options\\)\")",
+      "Bash(python -c \"import numpy as np; print\\(np.__version__\\); import cv2; print\\(cv2.__version__\\)\")"
+    ]
+  }
+}
